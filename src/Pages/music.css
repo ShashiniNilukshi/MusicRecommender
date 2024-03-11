@@ -73,6 +73,9 @@ background-color: black;
      cursor: pointer; /* Change cursor to pointer on hover */
      border-radius: 25px; /* Make corners round */
     transition: background-color 0.3s ease; /* Smooth transition for background color */
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
   }
   .button1{
     height: 45px;
@@ -81,12 +84,16 @@ background-color: black;
     font-size: 15px;
     color: rgb(250, 135, 221);
     margin-left: 1ch;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
   }
   .output{
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
     padding-top: 3ch;
-    height: 400px;
+    height: 300px;
     margin-top: 3ch;
     background-color: #FFF0F5;
     border-radius: 30px;
@@ -105,5 +112,18 @@ background-color: black;
     text-decoration: underline;
     
 
+  }
+  .output ul{
+    padding: 0; 
+  margin: 0;
+  
+  
+  }
+
+  li {
+    margin-bottom: 8px;
+    margin-left: 4px; /* Adjust the spacing as needed */
+    display: flex;
+  justify-content: center;
   }
 
