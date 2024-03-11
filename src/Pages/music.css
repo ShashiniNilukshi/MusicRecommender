@@ -1,0 +1,105 @@
+body{
+background-color: black;
+}
+
+
+.heading {
+    color: #F6F6F6;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    padding-top: 2ch;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 120%;
+ 
+    
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; 
+    
+  }
+  
+  .photo img {
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow:0 0 10px 5px rgba(184, 6, 86, 0.5); ;
+  }
+  
+  .paragraph p{
+    color: #FFD1DA;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 110%;
+    line-height: 3ch;
+    
+  }
+  
+  .paragraph{
+   
+     width: 90%; /* Set the desired width */
+  margin: 0 auto;
+  padding-top: 2ch;
+  }
+  .highligh{
+    background-color: #FFD1DA;
+    color: black;
+  }
+  .underline{
+    text-decoration: underline;
+    
+  }
+
+  .searchbar{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 3ch;
+  }
+
+  .searchbar input{
+    width: 300px;
+    height: 20px;
+    border: none; /* Remove button border */
+    padding: 15px 30px; /* Adjust button padding for bigger size */
+    font-size: 18px; /* Adjust button font size */
+     cursor: pointer; /* Change cursor to pointer on hover */
+     border-radius: 25px; /* Make corners round */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  .button1{
+    height: 45px;
+    width: 45px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: rgb(250, 135, 221);
+    margin-left: 1ch;
+  }
+  .output{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 3ch;
+    height: 400px;
+    margin-top: 3ch;
+    background-color: #FFF0F5;
+    border-radius: 30px;
+    
+  }
+  .output h3{
+    color: black;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: underline;
+    
+
+  }
+
