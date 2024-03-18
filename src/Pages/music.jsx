@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './music.css';
 import Image from './Music.jpeg';
+import Select from 'react-select';
 
 function Music() {
   const [searchQuery, setSearchQuery] = useState('');
