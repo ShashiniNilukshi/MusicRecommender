@@ -1,0 +1,60 @@
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    height: 130px;
+  }
+  
+  .navbar-list li {
+    margin-left: 20px;
+    background-color: black;
+    color: aliceblue; /* Adjust spacing between list items */
+  }
+  
+  .navbar-list li:first-child {
+    margin-left: 0; /* Remove margin from the first list item */
+  }
+  .button-home{
+    background-color: black;
+    color: white;
+    width:90px;
+    height: 40px;
+    border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  }
+  .button-music{
+    background-color: black;
+    color: white;
+    width:90px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .link1{
+    color: white;
+    text-decoration: none;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+  }
+  .link2{
+    color: white;
+    text-decoration: none;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+  }
+  .logo {
+    position: absolute; /* Position the logo absolutely */
+    top: 0; /* Align the logo to the top */
+    left: 0; /* Align the logo to the left */
+    width: 120px;
+    margin-left: 30px;
+    margin-top: 1ch;
+  }
+  .nav{
+     height:50px;
+  }
+  

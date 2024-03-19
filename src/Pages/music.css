@@ -1,18 +1,17 @@
-body{
-background-color: black;
-}
 
-
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Macondo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 .heading {
-    color: #F6F6F6;
+    color: black;
     align-items: center;
     display: flex;
     justify-content: center; 
     padding-top: 2ch;
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 600;
     font-style: italic;
     font-size: 120%;
+    
  
     
 }
@@ -28,28 +27,13 @@ background-color: black;
   .photo img {
     max-width: 100%;
     max-height: 100%;
-    box-shadow:0 0 10px 5px rgba(184, 6, 86, 0.5); ;
+    box-shadow:0 0 10px 5px rgba(1, 0, 1, 0.5); ;
+    border-radius: 100%;
   }
   
-  .paragraph p{
-    color: #FFD1DA;
-    text-align: center;
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 110%;
-    line-height: 3ch;
-    
-  }
   
-  .paragraph{
-   
-     width: 90%; /* Set the desired width */
-  margin: 0 auto;
-  padding-top: 2ch;
-  }
   .highligh{
-    background-color: #FFD1DA;
+    background-color: white;
     color: black;
   }
   .underline{
@@ -62,6 +46,7 @@ background-color: black;
     display: flex;
     justify-content: center;
     padding-top: 3ch;
+  
   }
 
   .searchbar input{
@@ -73,21 +58,25 @@ background-color: black;
      cursor: pointer; /* Change cursor to pointer on hover */
      border-radius: 25px; /* Make corners round */
     transition: background-color 0.3s ease; /* Smooth transition for background color */
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 300;
+    font-family: "Truculenta", sans-serif;
+    font-weight: 500;
     font-style: normal;
+    background-color: black;
+    color: white;
+    
   }
   .button1{
     height: 45px;
     width: 45px;
     border-radius: 15px;
     font-size: 15px;
-    color: rgb(250, 135, 221);
+    color: white;
     margin-left: 1ch;
     font-family: "Cormorant Garamond", serif;
     font-weight: 300;
     font-style: normal;
     cursor: pointer;
+    background-color: black;
   }
   .output{
     width: 40%;
@@ -95,7 +84,7 @@ background-color: black;
     padding-top: 3ch;
     height: 300px;
     margin-top: 3ch;
-    background-color: #FFF0F5;
+    background-color: black;
     border-radius: 30px;
     font-family: "Cormorant Garamond", serif;
     font-weight: 500;
@@ -104,7 +93,7 @@ background-color: black;
     
   }
   .output h3{
-    color: black;
+    color: white;
     text-align: center;
     font-family: "Cormorant Garamond", serif;
     font-weight: 500;
@@ -127,3 +116,21 @@ background-color: black;
   justify-content: center;
   }
 
+  .photo {
+    position: relative;
+    
+  }
+  
+  .bump-animation img {
+    animation: bump 0.5s ease infinite alternate;
+  }
+  
+  @keyframes bump {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  

@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Macondo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+
+  .home-header h1{
+    font-family: "Truculenta", sans-serif;
+     font-optical-sizing: auto;
+   
+    font-style : normal;
+   font-size: 750%;
+  position: absolute;
+  top: 43%;
+  left: 53%;
+  transform: translate(-50%, -190%);
+  }
+  .paragraph1 p{
+    color: white;
+    text-align: center;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 130%;
+    line-height: 4ch;
+    
+  }
+  
+  .paragraph1{
+   
+     width: 60%;
+     height: 60%; /* Set the desired width */
+  margin: 0 auto;
+  
+  position: absolute;
+  top: 45%;
+  left: 53%;
+  transform: translate(-50%, -10%);
+  background-color: black;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+  
+  }
+  .guitar-image{
+    display: flex;
+   margin: auto;
+ 
+
+  }
+  .button-home1{
+     background-color: white;
+     font-family: "Truculenta", sans-serif;
+     width: 160px;
+     height: 50px;
+     font-size: 30px;
+     border-radius: 30px;
+     margin-top: 1ch;
+     text-decoration: none;
+     
+  }
+  .color-selectors {
+    position: absolute;
+    top: 400px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .color-selector {
+    margin-bottom: 10px; /* Adjust spacing between buttons */
+  }
+  
+  /* Example styles for the buttons */
+  .red-button {
+    background-color: #CC5500;
+    color: white;
+    border-radius: 80px;
+    height: 30px;
+    width:30px;
+  }
+  
+  .green-button {
+    background-color: #FBCEB1;
+    color: white;
+    border-radius: 80px;
+    height: 30px;
+    width:30px;
+  }
+  
+  .blue-button {
+    background-color: #FFF0F5;
+    color: white;
+    border-radius: 80px;
+    height: 30px;
+    width:30px;
+  }
+  .white-button{
+    background-color: white;
+    color: white;
+    border-radius: 80px;
+    height: 30px;
+    width:30px;
+
+  }
+  

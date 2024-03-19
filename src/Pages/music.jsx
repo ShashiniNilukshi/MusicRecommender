@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import './music.css';
 import Image from './Music.jpeg';
-import Select from 'react-select';
+import './Nav.css'
+import logo from './logo.png'
+import { Link } from 'react-router-dom';
+
 
 function Music() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -29,15 +32,17 @@ function Music() {
 
   return (
     <div>
-      <div className='heading'>
+      
+      <div className='heading' id='music'>
+    
         <h1>Harmonize Your Style: Unveiling Your Perfect Soundtrack🎀</h1>
       </div>
-      <div className='photo'>
+      <section className="banner" id="home">
+      <div className='photo bump-animation'>
         <img src={Image} alt='Music Girls Image' />
       </div>
-      <div className='paragraph'>
-        <p>🎵 Welcome to our Music Recommendation page! 🎶 Discovering the perfect sound to match <span className='highligh'>your unique aesthetic</span> is an exhilarating journey, and we're here to guide you through it. Whether you're seeking the gentle melodies of indie folk to complement tranquil moments, the pulsating beats of electronic music to energize your day, or the soulful rhythms of jazz to set a sophisticated ambiance, our curated selection caters to every taste and mood. 🎧 Explore our collection and<span className='underline'> let the harmonious blend of melodies transport you to your desired atmosphere.</span> 🌟</p>
-      </div>
+    </section>
+    
       <div className='searchbar'>
         <input type="text" placeholder='Search' value={searchQuery} onChange={handleInputChange}></input>
         <button className='button1' onClick={handleSubmit}>Go</button>
