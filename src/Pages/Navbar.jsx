@@ -1,20 +1,3 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './Nav.css'
-import logo from './logo.png'
-
-function Navbar() {
-  return (
-    <nav>
-    <ul className="navbar-list">
-    
-      <li className='button-home'><Link to="/" className='link1'>Home</Link></li>
-      <li className='button-home'><Link to="/about" className='link2'>Music</Link></li>
-      
-    </ul>
-    <img src={logo} alt="logo" className='logo'/>
-  </nav>
-  )
-}
-
-export default Navbar
+version https://git-lfs.github.com/spec/v1
+oid sha256:c256294e6d5835a05b5aea5eb377f8828566ef3db237053c6badf77ad6256396
+size 538
