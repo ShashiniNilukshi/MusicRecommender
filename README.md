@@ -13,7 +13,8 @@ To connect the front end with the machine learning model, Flask, a micro web fra
 ### To install and set up the Rythem Day Music Recommender project, follow these steps:
 
 #### Prerequisites
-> Node.js and npm installed on your machine for frontend development.
+Node.js and npm installed on your machine for frontend development.
+
 Python installed on your machine for backend and machine learning model development.
 
 Jupyter Notebook installed for running the machine learning model development.
@@ -21,5 +22,5 @@ Jupyter Notebook installed for running the machine learning model development.
 Git installed for cloning the project repository (optional but recommended).
 
 #### Downloading the Pickle File
-Dowbload the similarity.pkl file from https://drive.google.com/file/d/1d6T7wayvFmUmXZvAzXV46I_Fc2kRx9i-/view?usp=sharing
+Download the similarity.pkl file from https://drive.google.com/file/d/1d6T7wayvFmUmXZvAzXV46I_Fc2kRx9i-/view?usp=sharing
 
