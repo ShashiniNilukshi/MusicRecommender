@@ -1,70 +1,25 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Rythem Day Music Recommender
 
-## Available Scripts
+## Project Description
+Rythem Day Music Recommender is a web application designed to provide users with recommendations for songs that match the vibe of their favorite tracks. Leveraging machine learning techniques, particularly cosine similarity, the application analyzes user input and suggests songs with similar characteristics.
+## Front End Development
+The front end of the project is developed using React.js, a popular JavaScript library for building user interfaces. HTML, CSS, and JavaScript are utilized to create the user interface components, including input forms, buttons, and displays for recommended songs. React Router is employed for navigation between different pages within the application, providing seamless user experience.
+## Machine Learning Model
+The core functionality of the music recommender system is powered by a machine learning model developed using Python in Jupyter Notebooks. The model employs cosine similarity, a mathematical measure, to calculate the similarity between vectors representing songs. Each song is represented as a vector in a multi-dimensional space, where each dimension corresponds to a specific feature of the song (e.g., tempo, genre, mood). By comparing the cosine of the angle between vectors, the model identifies songs with similar characteristics.
+## Backend Integration with Flask
+To connect the front end with the machine learning model, Flask, a micro web framework for Python, is utilized as the backend server. Flask provides a simple and lightweight framework for handling HTTP requests and responses. The frontend sends user input (favorite song) to the backend via HTTP requests, and the backend processes this input using the machine learning model to generate song recommendations. The recommended songs are then sent back to the frontend for display to the user.
 
-In the project directory, you can run:
+### To install and set up the Rythem Day Music Recommender project, follow these steps:
 
-### `npm start`
+#### Prerequisites
+> Node.js and npm installed on your machine for frontend development.
+Python installed on your machine for backend and machine learning model development.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Jupyter Notebook installed for running the machine learning model development.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Git installed for cloning the project repository (optional but recommended).
 
-### `npm test`
+#### Downloading the Pickle File
+Dowbload the similarity.pkl file from https://drive.google.com/file/d/1d6T7wayvFmUmXZvAzXV46I_Fc2kRx9i-/view?usp=sharing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
